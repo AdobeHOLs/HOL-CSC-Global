@@ -113,6 +113,7 @@ async function loadEager(doc) {
     /* if desktop (proxy for fast connection) or fonts already loaded, load fonts.css */
     if (window.innerWidth >= 900 || sessionStorage.getItem('fonts-loaded')) {
       loadFonts();
+      setUpLeftNav(main, main.querySelector('aside'));
     }
   } catch (e) {
     // do nothing
@@ -145,7 +146,7 @@ async function loadLazy(doc) {
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   loadFonts();
 
-  setUpLeftNav(main, main.querySelector('aside'));
+  // setUpLeftNav(main, main.querySelector('aside'));
 
   sampleRUM('lazy');
   sampleRUM.observe(main.querySelectorAll('div[data-block-name]'));
