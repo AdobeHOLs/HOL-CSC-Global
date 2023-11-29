@@ -235,6 +235,7 @@ main img {
 main .section {
   padding: 64px 16px;
   padding-left:8px;
+  min-height:80vh;
   display: flex;
   flex-direction: column;
 }
