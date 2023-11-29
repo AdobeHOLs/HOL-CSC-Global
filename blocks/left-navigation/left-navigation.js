@@ -52,9 +52,6 @@ export default async function decorate(block) {
   loadDropdowns();
   loadActiveLinks();
   const leftNavigationWrapper = document.querySelector('.left-navigation-wrapper');
-  if(leftNavigationWrapper){
-    leftNavigationWrapper.classList.add("section");
-  }
   decorateIcons(block);
   decorateButtons(block);
 }
