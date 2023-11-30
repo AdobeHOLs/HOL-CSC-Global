@@ -33,6 +33,8 @@ function loadActiveLinks(){
   // Find the parent container of the active link and show its dropdown
   var activeContainer = document.querySelector(".active").closest(".planning, .produce, .deliver, .analyze");
   if (activeContainer) {
+    const activeParagraph = activeContainer.querySelector(".left-navigation p");
+    activeParagraph.querySelector('img').src = "/icons/caret-down.svg";
     var activeUl = activeContainer.querySelector("ul");
     if (activeUl) {
       activeUl.style.display = "block";
@@ -49,9 +51,9 @@ export default async function decorate(block) {
       const html = await resp.text();
       block.innerHTML = html;
   }
+  decorateIcons(block);
+  decorateButtons(block);
   loadDropdowns();
   loadActiveLinks();
   const leftNavigationWrapper = document.querySelector('.left-navigation-wrapper');
-  decorateIcons(block);
-  decorateButtons(block);
 }
