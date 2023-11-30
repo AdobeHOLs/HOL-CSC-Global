@@ -37,6 +37,24 @@
   height: auto;
 }
 
+.columns.width-25-75 > div > div:first-child {
+  flex:3;
+}
+ 
+.columns.width-25-75 > div > div:last-child {
+  flex: 9;
+}
+ 
+.columns.width-25-75 .columns-img-col picture {
+  width: 100%;
+  height: auto;
+}
+ 
+.columns.width-25-75 .columns-img-col img {
+  width: 100%;
+  height: auto;
+}
+
 
 @media (min-width: 900px) {
   .columns > div {
