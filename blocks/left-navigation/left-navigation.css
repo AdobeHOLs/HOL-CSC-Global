@@ -45,6 +45,16 @@
   /* width: 90%; */
 }
 
+@media only screen and (max-width: 768px){
+   .left-navigation-wrapper{
+      min-width: 270px;
+    }
+
+  .left-navigation{
+    padding-right: 0px;
+  }
+}
+
 .left-navigation li .active{
   background-color: rgb(232, 232, 232);
   box-shadow: rgb(140, 144, 140) 0px 0px 3px 0px;
