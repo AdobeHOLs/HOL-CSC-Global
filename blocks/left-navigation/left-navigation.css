@@ -64,8 +64,12 @@
     display: inline-block !important;
   }
 
-  .container-wrapper > w-* {
+  .container-wrapper > w-1, .container-wrapper > w-2, .container-wrapper > w-3,
+  .container-wrapper > w-4, .container-wrapper > w-5, .container-wrapper > w-6,
+  .container-wrapper > w-7, .container-wrapper > w-8, .container-wrapper > w-9,
+  .container-wrapper > w-10, .container-wrapper > w-11, .container-wrapper > w-12 {
     width: 100%;
+
   }
 
 }
