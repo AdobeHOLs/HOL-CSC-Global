@@ -53,6 +53,18 @@
   .left-navigation{
     padding-right: 0px;
   }
+
+  .four-split-image > div > div {
+    width: 20%;
+    display: inline-block;
+    margin: 2px;
+  }
+
+  .four-split-image > div {
+    display: inline-block;
+  }
+
+
 }
 
 .left-navigation li .active{
