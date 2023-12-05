@@ -61,9 +61,12 @@
   }
 
   .four-split-image > div {
-    display: inline-block;
+    display: inline-block !important;
   }
 
+  .container-wrapper > w-* {
+    width: 100%;
+  }
 
 }
 
