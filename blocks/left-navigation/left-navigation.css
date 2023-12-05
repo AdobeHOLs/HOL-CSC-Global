@@ -45,7 +45,7 @@
   /* width: 90%; */
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 900px){
    .left-navigation-wrapper{
       min-width: 270px;
     }
