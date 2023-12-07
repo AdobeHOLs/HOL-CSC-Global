@@ -60,11 +60,20 @@
     margin: 2px;
   }
 
-  .four-split-image > div {
+  .four-split-image > div, .four-split-image > div {
     display: inline-block !important;
   }
 
-  .container-wrapper > .container.w-1, .container-wrapper > .container.w-2, .container-wrapper > .container.w-3,
+  .two-split-image > div > div {
+    width: 45%;
+    display: inline-block;
+    margin: 2px;
+  }
+
+  .container-wrapper > .container.w-1, .container-wrapper > .container.w-2, .container-wrapper > .container.w-3 {
+    width: 70%;
+  }
+
   .container-wrapper > .container.w-4, .container-wrapper > .container.w-5, .container-wrapper > .container.w-6,
   .container-wrapper > .container.w-7, .container-wrapper > .container.w-8, .container-wrapper > .container.w-9,
   .container-wrapper > .container.w-10, .container-wrapper > .container.w-11, .container-wrapper > .container.w-12 {
