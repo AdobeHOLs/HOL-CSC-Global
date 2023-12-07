@@ -80,6 +80,15 @@
     width: 100%;
   }
 
+  .left-navigation-wrapper {
+    min-width: 320px;
+    max-width: 400px;
+  }
+
+  .left-navigation-wrapper>.left-navigation>div {
+    max-width: 250px;
+  }
+
 }
 
 .left-navigation li .active{
