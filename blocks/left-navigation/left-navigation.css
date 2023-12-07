@@ -80,6 +80,10 @@
     width: 100%;
   }
 
+  .default-content-wrapper image {
+    width: 70%;
+  }
+
 }
 
 .left-navigation li .active{
